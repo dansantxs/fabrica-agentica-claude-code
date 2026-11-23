@@ -1,0 +1,23 @@
+Execute as duas especificações abaixo, obrigatoriamente em sequência,
+uma de cada vez.
+
+ORDEM DE EXECUÇÃO:
+
+1. @subagent-arquiteto
+   Especificação: 001-servidor-timestamp-pt-br
+
+2. @subagent-arquiteto
+   Especificação: 002-saudacao-horario
+
+REGRAS OBRIGATÓRIAS:
+- Quando tarefas sequenciais, atualizar branch da próxima tarefa com os dados da anterior.
+- Não execute as duas tarefas em paralelo.
+- Inicie a primeira especificação e aguarde sua conclusão integral.
+- Aguarde o subagente retornar o resultado final.
+- Verifique se a implementação foi concluída com sucesso.
+- Somente depois disso, inicie a segunda especificação.
+- A segunda execução deve considerar o estado atualizado do projeto
+  após a primeira implementação.
+- Não inicie a próxima tarefa enquanto a anterior estiver em execução.
+- Se a primeira tarefa falhar, interrompa a sequência e não execute a segunda.
+- Ao final, apresente um relatório individual de cada especificação.

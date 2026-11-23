@@ -4,7 +4,7 @@ uma de cada vez.
 ORDEM DE EXECUÇÃO:
 
 1. @subagent-arquiteto
-   Especificação: 001-servidor-timestamp-pt-br
+   Especificação: 001-data-hora-pt-br
 
 2. @subagent-arquiteto
    Especificação: 002-saudacao-horario
